@@ -56,6 +56,7 @@ amber() {
 }
 
 cleanup() {
+  echo "Cleaning up"
   cd $HOME
   rm -rf amber-stable
   sudo apt -y autoremove && sudo apt autoclean
